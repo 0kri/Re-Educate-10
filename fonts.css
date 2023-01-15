@@ -1,0 +1,14 @@
+@font-face {
+    font-family: brandongrotesque;
+    src: url(fonts/brandon-grotesque-black-58a8a3e824392.otf);
+}
+
+@font-face {
+    font-family: brandonlight;
+    src: url(fonts/brandon-grotesque-light-58a8a4b38001d.otf);
+}
+
+@font-face {
+    font-family: tisa;
+    src: url(fonts/FontsFree-Net-Tisa-Sans-Pro-Regular.ttf);
+}
