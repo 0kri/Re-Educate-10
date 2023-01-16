@@ -83,3 +83,43 @@ li:nth-child(3):after {
     margin-left: 15px;
 }
 /* finish header */
+/* main title section */
+.main-title {
+    min-height: calc(100vh - 75px);
+    background-color: #F7F7F7;
+    position: relative;
+    overflow: hidden;
+}
+.big-circle {
+    background-color: #F7F7F7;
+    border: 200px solid #000000;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    opacity: 3%;
+}
+.equipe h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    padding: 1.5em 0 1em 5.5em;
+    color: #262626;
+}
+.equipe p {
+    font-family: tisa;
+    font-size: 2rem;
+    padding: 0.5em 0 1em 5.5em;
+    color: #262626;
+}
+.notre h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    padding: 48px 0 0 176px;
+}
+.notre p {
+    font-family: tisa;
+    font-size: 1.6rem;
+    padding: 48px 0 0 176px;
+}
