@@ -98,7 +98,7 @@ li:nth-child(3):after {
     height: 800px;
     position: absolute;
     right: -150px;
-    top: 50px;
+    top: 150px;
     opacity: 3%;
 }
 .equipe h1 {
@@ -122,4 +122,45 @@ li:nth-child(3):after {
     font-family: tisa;
     font-size: 1.6rem;
     padding: 48px 0 0 176px;
+}
+/* finish main-title */
+/* equipe-photo section */
+.equipe-photo {
+    min-height: calc(100vh - 75px);
+}
+.equipe-photo .photo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin: 0 auto 0 auto;
+}
+.equipe-photo img {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 50%;
+}
+.employee h3 {
+    margin: 35px 0 15px 0;
+    font-size: 1rem;
+    color: #262626;
+    letter-spacing: 1.5px;
+}
+.employee p {
+    font-size: 1rem;
+    font-family: brandonlight;
+    color: #262626;
+    font-weight: bolder;
 }
