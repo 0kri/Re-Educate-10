@@ -431,7 +431,8 @@ li:nth-child(3):after {
     flex-direction: column;
     background-color: #FFFFFF;
     width: 35%;
-    padding: 62px 124px;
+    padding-top: 50px;
+    padding-left: 5%;
 }
 .email h3 {
     color: #111111;
