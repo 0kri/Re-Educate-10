@@ -90,7 +90,7 @@ li:nth-child(3):after {
     position: relative;
     overflow: hidden;
 }
-.big-circle {
+.big-right-circle {
     background-color: #F7F7F7;
     border: 200px solid #000000;
     border-radius: 50%;
@@ -112,6 +112,7 @@ li:nth-child(3):after {
     font-size: 2rem;
     padding: 0.5em 0 1em 5.5em;
     color: #262626;
+    line-height: 3.2rem;
 }
 .notre h2 {
     font-size: 1.7rem;
@@ -122,6 +123,7 @@ li:nth-child(3):after {
     font-family: tisa;
     font-size: 1.6rem;
     padding: 48px 0 0 176px;
+    line-height: 3rem;
 }
 /* finish main-title */
 /* equipe-photo section */
@@ -163,4 +165,117 @@ li:nth-child(3):after {
     font-family: brandonlight;
     color: #262626;
     font-weight: bolder;
+}
+/* finish equipe-photo section */
+/* emplois section */
+.emplois {
+    margin-top: 100px;
+    min-height: calc(100vh - 75px);
+}
+.emplois-title h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    padding: 48px 0 0 176px;
+    color: #262626;
+}
+.emplois-title p {
+    font-family: tisa;
+    font-size: 1.3rem;
+    padding: 48px 0 0 176px;
+    color: #434343;
+    line-height: 2.5rem;
+}
+.emplois-email a {
+    color: #434343;
+}
+.emplois-boxes {
+    margin: 70px 176px ;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.emplois-box {
+    width: calc(100% / 3 - 35px);
+    height: 150px;
+    background-color: #0865DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 6px;
+}
+.emplois-box h3 {
+    font-family: brandonlight;
+    color: #FFFFFF;
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+}
+.emplois-box p {
+    color: #002D69;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.box-button {
+    display: flex;
+    margin-top: 10px;
+}
+.box-button img {
+    width: 25px;
+    height: 25px;
+    background-color: #F7F7F7;
+    border-radius: 60%;
+}
+.box-button p {
+    font-family: brandonlight;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+    margin-left: 20px;
+}
+/* finish emplois-section */
+/* notreca section */
+.notreca {
+    min-height: 50vh;
+    display: flex;
+    position: relative;
+}
+.left-hidden-box {
+    width: 50%;
+}
+.notreca-wrapper h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    color: #262626;
+}
+.notreca-wrapper p {
+    font-family: tisa;
+    font-size: 1.45rem;
+    margin-top: 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+}
+.notreca-wrapper .small-p {
+    font-family: tisa;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    line-height: 2rem;
+}
+.small-p a {
+    color: #262626;
+}
+.big-left-circle {
+    background-color: #F7F7F7;
+    border: 200px solid #000000;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: -190px;
+    top: -80px;
+    opacity: 3%;
 }
